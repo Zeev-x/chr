@@ -1,0 +1,99 @@
+    /* Header */
+      body {
+        margin: 0px;
+        padding: 0px;
+        height: 95vh;
+        background-color: #252525;
+      }
+      .logo {
+        font-family: Monospace;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: #00a6f9;
+        padding: 5px 30px;
+        border-radius: 10px;
+        color: black;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        text-decoration: none;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        background-color: black;
+        box-shadow: 3px 3px 20px black;
+        padding: 0px 5%;
+      }
+      nav ul {
+        display: flex;
+      }
+      nav ul li button {
+        border: none;
+        background-color: transparent;
+        margin: 20px;
+        font-family: Courier;
+        font-weight: 700;
+        font-size: 20px;
+        color: #009eff;
+      }
+      /* Batas header */
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        padding-left: 2%;
+      }
+      .content {
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 0%;
+        text-align: left;
+        width: 100%;
+        align-items: top;
+        margin: auto;
+        color: white;
+      }
+      .about {
+        display: none;
+        background-color: black;
+        padding: 0px;
+        color: white;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 2%;
+        text-align: left;
+        width: 50%;
+        box-shadow: 3px 3px 20px black;
+      }
+      .input {
+        text-align: center;
+      }
+      .input input {
+        border: none;
+        font-family: Courier;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 0px 3px;
+      }
+      .input button {
+        font-family: Courier;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 20px;
+      }
+      #result {
+        text-align: center;
+      }
+      .about a {
+        color: red;
+        text-decoration: none;
+      }
+      .content h1 {
+        text-align: center;
+      }
